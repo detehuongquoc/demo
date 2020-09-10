@@ -1,0 +1,226 @@
+/* header */
+.narbar {
+    background-color: #282828;
+    width: 100%;
+    height: 150px;
+}
+.narbar-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.navbar_page > li {
+    display: inline-block;
+    list-style: none;   
+}
+.navbar_page > li > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.navbar_page > li > a:hover {
+    color: #d5a853;
+}
+#navbar_page-text-home {
+    color: #d5a853;
+}
+/* *******************main******************* */
+/* slider main */
+.main-sider {
+    height: 750px;
+    background-color: black;
+    background-image: url(img/congnhan1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+
+}
+.main-sider_content {
+    color: white;
+    position: absolute;
+    top: 35%;
+    width: 40%;
+}
+.main-sider_content p {
+    display: block;
+    padding: 40px 0;
+    line-height: 25px;
+    font-weight: 200;
+    color: #d8e1e8;
+}
+
+.main-sider_content > h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-main {
+    height: 50px;
+    width: 150px;
+    background-image: url(https://prestigeelectricalgroup.com.au/wp-content/themes/peg/images/bgr-button.png);
+}
+
+/* main-slider-facts */
+.main__slider-facts-wrap {
+    width: 360px;
+    height: 220px;
+    background-color: #282828;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.h2-text-facts {
+    color: #b59546;
+    font-size: 20px;
+    padding: 20px 20px 10px 20px;
+}
+.h3-text-facts {
+    color: white;
+    font-size: 30px;
+    padding: 0 20px 20px 20px;
+}
+.p-text-facts {
+    padding: 10px 20px;
+    line-height: 25px;
+}
+.main-sider-hero-relative {
+    position: relative;
+}
+.main__slider-facts {  
+    margin-top: -50px;
+   
+}
+.flex-slider {
+    display: flex;
+    justify-content: space-between;
+}
+.a-text-facts{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+/* main about */
+.main-about {
+    width: 100%;
+    height: 600x;
+    background-color: white;
+}
+.main__slider-facts-wrap {
+    border-left: 5px solid #282828;
+    border-right: 5px solid #282828;
+    border-top: 5px solid #282828;
+}
+.main__slider-facts-wrap:hover {
+    border-left: 5px solid #a88235;
+    border-right: 5px solid #a88235;
+    border-top: 5px solid #d3ba62;
+    cursor: pointer;
+}
+.main__slider-facts-wrap {
+    box-sizing: content-box;
+    position: relative;
+}
+.main__slider-facts-wrap:after {
+    background-image: url(https://prestigeelectricalgroup.com.au/wp-content/themes/peg/images/boder-bottom.png) !important;
+    position: absolute;
+    content: '';
+    height: 7px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+/* introduce */
+.main__introduce {
+    margin-top: 100px;
+    color: #282828;
+}
+.main__introduce > h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.main__introduce > h3 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.main__introduce > p {  
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+.main__introduce > .text-first-introduce {
+    margin-top: 50px;
+}
+.main__introduce > h3 , h2 {
+    text-transform: uppercase;
+    
+}
+.main__introduce-img {
+    margin-top: 110px;
+}
+.home-peg-quick .vc_col-sm-4 .vc_column-inner {
+    border-left: 5px solid #282828;
+    border-right: 5px solid #282828;
+    border-top: 5px solid #282828;
+}
+
+.form-main {
+    background-color: #f5f5f5;
+    height: 600px;
+}
+
+.text-align {
+    text-align: center;  
+}
+.text-align-modify {
+    padding: 10px 200px;
+}
+.text-align > .text-h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.text-align > .text-p {
+    margin-top: 30px;
+    line-height: 25px;
+    color: #555555;
+}
+.input-form-modify {
+    height: 50px;
+    width: 350px;
+    
+}
+.input-form-modify-row {
+   margin: 20px 0 10px 0;
+}
+
+.textarea-input {
+    width: 730px;
+    height: 150px;
+    
+}
+.padding-class {
+    padding-left: 20px;
+}
+.input-form-modify-row > div > textarea {
+    margin: 10px 0;
+}
+
+.centerBlock {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: auto;
+}
+.button-submit {
+    margin-top: 40px;
+}
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #282828;
+}

@@ -1,0 +1,11 @@
+:root {
+    --white-color : #fff;
+    --black--color : #000;
+    --text-color : #333;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+.button {
+    border: none;
+}
