@@ -9,3 +9,6 @@ body {
 .button {
     border: none;
 }
+.display-none {
+    display: none;
+}

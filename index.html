@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="base.css">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,27 +20,39 @@
             <section class="narbar narbar-wrap">
                <div class="container">
                    <div class="row narbar-wrap">
-                       <div class="col-auto">
+                       <!-- <div class="col-xl-3 col-lg-3 "> -->
                            <div class="narbar-img">
                                 <img src="img/logo.png" alt="logo">
-                           </div>
-                       </div>
-                       <div class="col-auto">
-                           <ul class="navbar_page">
+                           <!-- </div> -->
+                            </div>
+                            <div class="nav__btn-btn"  data-target="#navbarCollapse" data-toggle="collapse">
+                                 <i class="fas fa-bars"></i>
+                            </div>   
+                       <!-- <div class="col-xl-9 col-lg-9 col-md-9 col-sm-6"> -->
+                           <ul class="navbar_page navbar_page-sm collapse navbar-collapse"  id="navbarCollapse">
                                <li><a id="navbar_page-text-home" href="">HOME</a></li>
                                <li><a href="">ABOUT US</a></li>
                                <li><a href="">SERVICES</a></li>
                                <li><a href="">GALLERY</a></li>
                                <li><a href="">CONTACT</a></li>
                            </ul>
-                       </div>
+                           <ul class="navbar_page hide-moblie">
+                            <li><a id="navbar_page-text-home" href="">HOME</a></li>
+                            <li><a href="">ABOUT US</a></li>
+                            <li><a href="">SERVICES</a></li>
+                            <li><a href="">GALLERY</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                       <!-- </div> -->
+                       
+                       
                    </div>
                </div>
             </section>
         </header>    
         <div class="main">
-                <section class="main-sider  main-sider-hero-relative">
-                    <div class="main-sider-hero">
+                <section class="main-sider  main-sider-hero-relative ">
+                    <div class="main-sider-hero hide-moblie">
                         <div class="container">
                             <div class="main-sider_content">
                                 <h1 class="main-sider_content-title" >We are experts</h1>
@@ -53,7 +67,7 @@
                         <div class="container main__slider-facts-container">
                             <div class="row main__slider-facts-row">
                                 <div class="col-lg-4 col-sm-12 main__slider-facts-col">
-                                    <div class="main__slider-facts-wrap">
+                                    <div class="main__slider-facts-wrap centerBlock">
                                         <h2 class="h2-text-facts">QUICK HELP</h2>
                                         <h3 class="h3-text-facts">HONEST SERVICE</h3>
                                         <p class="p-text-facts">Lorem Ipsum is simply dummy text of the printing and typesettin</p>
@@ -92,7 +106,7 @@
                 <section class="main-about">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                                 <div class="main__introduce">
                                     <h3>Want to know</h3>
                                     <h2>About Us?</h2>
@@ -104,7 +118,7 @@
                                         Culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                                 <div class="main__introduce-img">
                                     <img src="img/worker1.png" alt="woker">
                                 </div>
@@ -128,33 +142,36 @@
                                     <p class="text-p text-align text-align-modify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                                 </div>
                                 <form action="" class="form-input centerBlock">
-                                    <div class="row input-form-modify-row">
-                                        <div class="col-6">
-                                            <input class="form-control input-form-modify padding-class" type="text" name="" placeholder="Your Name">
+                                    <div class="container">
+                                        <div class="row input-form-modify-row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <input class="form-control input-form-modify padding-class" type="text" name="" placeholder="Your Name">
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <input class="form-control input-form-modify padding-class" type="email" name="" placeholder="Your Email">
+                                            </div>
                                         </div>
-                                        <div class="col-6">
-                                            <input class="form-control input-form-modify padding-class" type="email" name="" placeholder="Your Email">
+                                        <div class="row input-form-modify-row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <input class="form-control input-form-modify padding-class" type="text" name="" placeholder="Phone Number">
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <input class="form-control input-form-modify padding-class" type="text" name="" placeholder="Subject">
+                                            </div>
+                                        </div>
+                                        <div class="row input-form-modify-row">
+                                            <div class="col-12">
+                                                    <textarea placeholder="Message"  class="form-control textarea-input padding-class" name="" rows="3"></textarea>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="row input-form-modify-row">
-                                        <div class="col-6">
-                                            <input class="form-control input-form-modify padding-class" type="text" name="" placeholder="Phone Number">
-                                        </div>
-                                        <div class="col-6">
-                                            <input class="form-control input-form-modify padding-class" type="text" name="" placeholder="Subject">
-                                        </div>
-                                    </div>
-                                    <div class="row input-form-modify-row centerBlock">
-                                        <div class="col-12">
-                                                <textarea placeholder="Message"  class="form-control textarea-input padding-class" name="" rows="5"></textarea>
-                                        </div>
-                                    </div>
+                                    
                                     <button class="button button-main button-submit centerBlock">Submit</button>
                                 </form>
                                 
                             
                         </div>
-                      
+                        
                       
                    </div>
                 </section>
@@ -163,7 +180,7 @@
         <footer class="footer">
             <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                             <div class="footer-logo">
                                 <img src="img/logo.png" alt="logo">
                                 <p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri,. </p>
@@ -175,7 +192,7 @@
 
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 hide-moblie">
                             <div class="quicklink">
                                 <h3>QUICK LINKS</h3>
                                 <ul class="quick-lick_link">
@@ -187,7 +204,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 hide-moblie">
                             <div class="footer-service">
                                 <h3>OUT SERVICES</h3>
                                 <ul class="quick-lick_link">
@@ -199,7 +216,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 hide-moblie">
                             <div class="footer-contact">
                                 <h3>CONTACT US</h3>
                                 <ul class="quick-lick_link">

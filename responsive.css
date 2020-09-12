@@ -1,0 +1,154 @@
+/* moblie vs table */
+@media (max-width : 1023px){
+    .hide-table-moblie {
+        display: none;
+    }
+    .show-table-moblie {
+        display: block;
+    }
+    .main__slider-facts {
+        margin-top: 40px;
+    }
+    .main__slider-facts-wrap {
+        margin-bottom: 30px;
+    }
+    .main__introduce-img {
+        display: flex;
+        justify-content: center;
+    }
+    .main__introduce h3,h2 {
+        text-align: center;
+    }
+    .text-align-modify {
+        padding: 10px 0;
+    }
+    .narbar-img img{
+        width: 100%;
+    }
+  
+}
+/* table */
+@media (min-width : 740px) and (max-width : 1023px){
+    .hide-table {
+        display: none;
+    }
+    .button-submit {
+        margin-top: -7px;
+    }
+    .footer-contact {
+        margin-left: 70px;
+    }
+    .main__introduce-img {
+        margin-top: 40px;
+    }
+    .footer {
+        height: 600px;
+    }
+    .textarea-input {
+        width: 600px;
+    }
+    .navbar_page > li > a {
+        padding-left: 20px;
+    }
+    .form-main {
+        background-color: #f5f5f5;
+        height: 545px;
+    }
+    .button-submit {
+        margin-top: 19px;
+    }
+}
+/* moblie*/
+@media (max-width : 739px){
+    .hide-moblie {
+        display: none;
+    }
+    .main__introduce-img img {
+        width: 50%;
+    }
+    .main__introduce-img {
+        margin-top: 20px;
+    }
+    .form-main {
+        height: 700px;
+    }
+    .textarea-input {
+        width: 100%; 
+        height: 30px;
+    }
+    .padding-class {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .text-align > .text-h2 {
+        margin-top: 30px;
+    }
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer {
+        height: 300px;
+    }
+    .footer-logo p {
+        padding-left: 10px;
+    }
+    .main-sider {
+        width: 100%;
+        height: 0;
+        padding-top: 45%;
+        background-image: url(img/congnhan1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    
+    }
+    .narbar-img img{
+        width: 80%;
+    }
+    .narbar-wrap {
+        display: flex;
+    }
+
+    .narbar-img img {
+        max-width: 80%;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .three-column {
+        padding-right: 6px;
+    }
+    .main__introduce {
+        margin-top: 40px;
+    }
+    .nav__btn-btn i {
+        display: block;
+        
+    }
+    .nav__btn-btn {
+
+        margin-right: 15px;
+    }
+    .navbar_page-sm {
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar_page > li {
+        display: inline-block;
+        list-style: none;   
+    }
+    .navbar_page > li > a {
+        text-decoration: none;
+        color: white;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .navbar_page > li > a:hover {
+        color: #d5a853;
+    }
+    #navbar_page-text-home {
+        color: #d5a853;
+    }
+}
