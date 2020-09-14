@@ -319,3 +319,6 @@
 .google {
     color: #8b743c;
 }
+.navbar_page-sm {
+    display: none;
+}

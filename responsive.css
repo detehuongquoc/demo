@@ -57,6 +57,9 @@
     .button-submit {
         margin-top: 19px;
     }
+    .navbar_page-sm {
+        display: none;
+    }
 }
 /* moblie*/
 @media (max-width : 739px){
